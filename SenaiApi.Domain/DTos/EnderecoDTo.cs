@@ -13,7 +13,6 @@ namespace SenaiApi.Domain.DTos
         public String Bairro { get; set; }
         public String Cep { get; set; }
         public String UF { get; set; }
-        public long PessoaId { get; set; }
-        public PessoaDTo Pessoa { get; set; } //Para poder acessar a pessoa pelo endereco
+
     }
 }

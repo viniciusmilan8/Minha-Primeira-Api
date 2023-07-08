@@ -14,6 +14,5 @@ namespace SenaiApi.Domain.Entidades
         public String Cep { get; set; }
         public String UF { get; set; }
         public long PessoaId { get; set; }
-        public Pessoa Pessoa { get; set; } //Para poder acessar a pessoa pelo endereco
     }
 }

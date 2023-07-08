@@ -1,4 +1,5 @@
 ﻿using SenaiApi.Domain.DTos;
+using SenaiApi.Domain.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace SenaiApi.Service.Interface
 {
     public interface IPessoaService
     {
-        void Salvar(PessoaDTo pessoa);
+        List<Pessoa> BuscarTodos();
+        bool Salvar(PessoaDTo pessoa);
+        public bool Delet(long id);
     }
 }
